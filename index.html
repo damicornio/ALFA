@@ -20,7 +20,7 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1000px;" id="home">
   <img class="w3-image" src="images/AAE.png" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center"/>
 </header>
@@ -36,29 +36,33 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Historia</div>
+        <div class="w3-display-topleft w3-black w3-padding">Ingenieria</div>
+        <img src="images/Ingenieria.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="images/Reportes_vigencia.png" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Transportes</div>
+        <img src="images/Transportes.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="images/Estadisticas.png" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Obra Civil</div>
+        <img src="images/Obra_Civil.png" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="images/Info_Siniestros.png" alt="House" style="width:100%">
+        <div class="w3-display-topleft w3-black w3-padding">Responsabilidad Civil</div>
+        <img src="images/Respon_Civil.png" alt="House" style="width:100%">
       </div>
     </div>
   </div>
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Historia</h3>
     <p>
       Alfa Ajustadores inició operaciones en mayo de 2010 y actualmente proporciona servicios de Ajuste de  Siniestros  en  todo  el  país a  varias  compañías  aseguradoras  y  reaseguradoras,  todas  ellas  con capital de inversión extranjero,  desarrollando su actividad de manera independiente y exclusivamente con recursos propios con oficinas y presencia en Ciudad de  México, Monterrey, N.L. y Guadalajara, Jal. <br/>
       La  Empresa proporciona  una  amplia  gama  de  servicios  de  ajuste  de  siniestros  de  acuerdo  con estrictas  directrices éticas  y  profesionales,  adoptando  un  enfoque  multidisciplinario  que  reconoce  la importancia que tiene la imparcialidad. <br/>
@@ -147,17 +151,21 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p><b>Oficina CDMX:</b> Coras Mz.43 Lte.27, Col. Ajusco, C.P. 04300, Del. Coyoacán, Ciudad de México</p>
 </footer>
 
 <!-- Add Google Maps -->
 <script>
 function myMap()
 {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  /*var mapProp= {
+    center:new google.maps.LatLng(19.322869, -99.154108),zoom:16,
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);*/
+  myCenter=new google.maps.LatLng(19.322869, -99.154108);
   var mapOptions= {
     center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
+    zoom:16, scrollwheel: false, draggable: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
@@ -168,11 +176,7 @@ function myMap()
   marker.setMap(map);
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK0UlwCPRHUrTJKS2lc2r4Z4MXNvgygYE&callback=myMap"></script>
 
 </body>
 </html>
