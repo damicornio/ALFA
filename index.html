@@ -1,182 +1,403 @@
 <!DOCTYPE html>
 <html>
-<title>ALFA Ajustadores Especializados</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<body>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta property="og:url" content="http://www.ajustadoresespecializados.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ALFA Ajustadores Especializados" />
+    <meta property="og:description" content="Sitio Web de ALFA Ajustadores Especializados" />
+    <meta property="og:image" content="images/ALFA-logo.png" />
+    <meta property="og:image:width" content="1284" />
+	<meta property="og:image:height" content="800" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Sitio Web de ALFA Ajustadores Especializados">
+    <meta name="keywords" content="ALFA, Ajustadores, Aseguradoras">
+    <meta name="author" content="Dami&aacute;n Garc&iacute;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/icon.png" type="image/png" sizes="32x32">
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>ALFA</b> Ajustadores Especializados</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">&#191Qui&eacutenes somos?</a>
-      <a href="#about" class="w3-bar-item w3-button">Ajustadores</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+	<!-- Stylesheets
+	============================================= -->
+	<!--<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />-->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  	<link rel="stylesheet" href="css/colors.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<!-- External JavaScripts
+	============================================= -->
+  	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/flowtype.js"></script>
+  	<script type="text/javascript" src="js/ctce.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(e) {
+			//Texto Responsivo
+            $("body").flowtype({
+				minimum:320,
+				maximum:1920,
+				minFont: 10,
+				maxFont: 14
+			});
+        });
+	</script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>ALFA Ajustadores Especializados</title>
+</head>
+
+<body class="stretched" data-loader="12" data-loader-color="#006699">
+	<div id="wrapper" class="clearfix">
+    	<a id="inicio"></a>
+        <!-- Top Bar
+        ============================================= -->
+        <style>
+	.top-links li > a{ color:#FFF !important; font-size:0.82em !important; }
+	.top-links li > a:hover{ background-color:#444 !important; }
+</style>
+<div id="top-bar" style="background-color:#00080E;">
+	<div class="container clearfix">
+    	<div class="col_half nobottommargin">
+        	<img src="/images/gobmx.png" style="width:100%; max-height:80%;">
+        </div>
+        
     </div>
-  </div>
-</div>
+</div>        <!-- /Top Bar end
+        ============================================= -->
+        
+		<!-- Header
+		============================================= -->
+		<header id="header" class="sticky-style-2">
+			<div class="container clearfix">
+	<!-- Logo
+	============================================= -->
+	<div id="logo" class="divcenter">
+		<img src="images/AAE.png" alt="ALFA-Ajustadores"></a>
+	</div>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1000px;" id="home">
-  <img class="w3-image" src="images/AAE.png" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center"/>
-</header>
+</div>			<div id="header-wrap">
+	<!-- Primary Navigation
+	============================================= -->
+    <style>
+		.gris{ background-color:#6D6D6D !important; }
+		.gris ul li a{ color:#FFF !important; }
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+		.azulescom{ background-color:#069 !important; }
+		.azulescom ul li a{ color:#FFF !important; }
+	</style>
+	<nav id="primary-menu" class="style-2 gris">
+		<div class="container clearfix">
+			<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+				<ul>
+                	<li><a href="index.html"><img src="images/ALFA-logo.png" id="logoALFA" alt="ALFA"></a></li>
+                    <!--<li><a href="index.html"><div>Inicio</div></a></li>-->
+                    <li><a href="#"><div>Nosotros</div></a>
+                        <ul>
+                        	<li><a href="index.html#historia" data-scrollto="#historia">Historia</a></li>
+                            <li><a href="index.html#organigrama" data-scrollto="#organigrama">Organigrama</a></li>
+							<li><a href="index.html#ubicacion" data-scrollto="#ubicacion">Ubicaci&oacute;n</a></li>
+                            <li><a href="">link4</a></li>
+                            <li><a href="">link5</a></li>                      
+                        </ul>
+                    </li>
+                    <li><a href="#"><div>Hidrometeorolog&iacute;a</div></a>
+                    	<ul>
+                        	<li><a href="">link1</a></li>
+                            <li><a href="">link2</a></li>
+                            <li><a href="" target="_blank">link3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><div>Sismo</div></a>
+                    	<ul>
+                        	<li><a href="">link1</a></li>
+                            <li><a href="">link2</a></li>
+                            <li><a href="" target="_blank">link3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><div>Leyes/C&oacute;digos</div></a>
+                    	<ul>
+                        	<li><a href="">link1</a></li>
+                            <li><a href="">link2</a></li>
+                            <li><a href="" target="_blank">link3</a></li>
+                        </ul>
+                    </li>
+				</ul>
+		</div>
+	</nav><!-- #primary-menu end -->
+</div>	
+		</header>
+		<!-- /header end
+		============================================= -->
+	
+		<!-- Content
+		============================================= -->
+		<section id="content">
+     	<!-- News -->
+        <a id="news"></a>
+        <section id="content">
+	<div class="content-wrap">
+		<div class="container clearfix">
+			<div class="heading-block center topmargin">
+				<h2 class="dir">Noticias</h2>
+			</div>
+			<div id="oc-posts" class="owl-carousel posts-carousel">
 
-  <!-- Identity Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">&#191Qui&eacutenes somos?</h3>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Ingenieria</div>
-        <img src="images/Ingenieria.png" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Transportes</div>
-        <img src="images/Transportes.png" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Obra Civil</div>
-        <img src="images/Obra_Civil.png" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Responsabilidad Civil</div>
-        <img src="images/Respon_Civil.png" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Historia</h3>
-    <p>
-      Alfa Ajustadores inició operaciones en mayo de 2010 y actualmente proporciona servicios de Ajuste de  Siniestros  en  todo  el  país a  varias  compañías  aseguradoras  y  reaseguradoras,  todas  ellas  con capital de inversión extranjero,  desarrollando su actividad de manera independiente y exclusivamente con recursos propios con oficinas y presencia en Ciudad de  México, Monterrey, N.L. y Guadalajara, Jal. <br/>
-      La  Empresa proporciona  una  amplia  gama  de  servicios  de  ajuste  de  siniestros  de  acuerdo  con estrictas  directrices éticas  y  profesionales,  adoptando  un  enfoque  multidisciplinario  que  reconoce  la importancia que tiene la imparcialidad. <br/>
-      Tenemos  amplia  experiencia  en  la  gestión  de  reclamaciones  complejas,  especialmente  las que implican lo siguiente: <br/>
-      <ul>
-        <li>Relativas a cuestiones multinacionales.</li>
-        <li>Manejo integral de siniestros catastróficos.</li>
-        <li>Siniestros complejos, ya sea por su potencial exposición mediática y litigiosa, el perfil del cliente y/o la cuantía del reclamo.</li>
-        <li>Siniestros de frecuencia (Fast Track).</li>
-      </ul>
-    </p>
-  </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/Ignacio-Lopez.png" alt="IgnacioL" style="width:100%">
-      <h3>Ignacio López Vázquez</h3>
-      <p class="w3-opacity">Director General</p>
-      <p>
-        Cuenta con 36 años de experiencia como ajustador de seguros, durante los cuales ha formado parte de despachos nacionales e internacionales en los que ocupó puestos de gerencia y dirección en ciudades representativas como la Ciudad de México; Cancún, Q. Roo; y Monterrey, N. L.<br/>
-        Lo anterior le ha permitido dominar el manejo de todos los ramos y, particularmente, los de incendio y coberturas aliadas; responsabilidad civil (productos y trabajos terminados, industria, profesional, etc.); pólizas de riesgos financieros; técnicos (rotura de maquinaria, equipo de contratistas, construcción y calderas, y aparatos sujetos a presión).<br/>
-        Ignacio ha participado en la atención directa y supervisión de cuentas de Gobierno y Particulares, tales como:
-        <ul>
-          <li>Comisión Federal de Electricidad</li>
-          <li>Comisión Nacional del Agua</li>
-          <li>Coca-Cola Femsa</li>
-          <li>Pepsico</li>
-          <li>Grupo ICA</li>
-          <li>CEMEX</li>
-          <li>Cementos Cruz Azul</li>
-          <li>IMSA</li>
-          <li>Altos Hornos de México</li>
-          <li>FEVISA</li>
-          <li>Banregio para líneas financieras.</li>
-          <li>Banorte para líneas financieras.</li>
-          <li>Banco Santander para líneas financieras.</li>
-          <li>SEDESOL</li>
-          <li>INAPAM</li>
-        </ul>
-      </p>
-      <p><button class="w3-button w3-light-grey w3-block">Contáctame</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/Daniel-Franco.png" alt="DanielF" style="width:100%">
-      <h3>Daniel Franco Hernández</h3>
-      <p class="w3-opacity">Subdirector y sistemas</p>
-      <p>
-        Ingeniero Mecánico-Eléctrico egresado del Instituto Politécnico Nacional, con especialidad en energéticos. Actualmente cuenta con 10 años de experiencia como ajustador de seguros, durante los cuales y de manera notoria ha desarrollado habilidades para el manejo de todos los ramos de seguros. <br/>
-        Por razón de su especialidad como profesionista, participa activamente en casos donde se involucran daños a maquinarias, equipos pesados y energía. Sin embargo, sus habilidades se han extendido al manejo de siniestros que corresponden a riesgos financieros, diversos riesgos, transportes, responsabilidad civil, incendio y líneas aliadas; adicionalmente participó en la atención de diversos reclamos por los daños causados por el huracán Alex en los estados de Tamaulipas y Nuevo León, Manuel en Guerrero y Odile en Baja California.<br/>
-        Dentro de la estructura de ALFA, Daniel se encarga de coordinar, supervisar y capacitar al equipo de ajustadores que operan en la Ciudad de México.
-      </p>
-      <p><button class="w3-button w3-light-grey w3-block">Contáctame</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/Daniel-Rosas" alt="DanielR" style="width:100%">
-      <h3>Daniel I. López Rosas</h3>
-      <p class="w3-opacity">Subdirector Noreste</p>
-      <p>
-        Daniel tiene estudios en Administración y cuenta con 7 años de experiencia como ajustador de siniestros. Se ha desarrollado como ajustador en la Ciudad de Monterrey, N.L. atendiendo siniestros en todos los ramos, particularmente en las coberturas de incendio, transportes, rotura de maquinaria y responsabilidad civil.<br/>
-        Ha participado en la atención y coordinación de siniestros catastróficos como la inundación de Piedras Negras en junio de 2014 y el huracán Odile en el mismo año. El ser bilingüe le permite atender los reclamos presentados en inglés.
-      </p>
-      <p><button class="w3-button w3-light-grey w3-block">Contáctame</button></p>
-    </div>
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contacto</h3>
-    <p>Déjanos tus dudas para poder ayudarte vía correo electrónico</p>
-    <form method="post" action="PHP/correo.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comentario" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> Enviar Mensaje
-      </button>
-    </form>
-  </div>
-  
-
-<!-- End page content -->
-</div>
-
-<!-- Google Map -->
-<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p><b>Oficina CDMX:</b> Coras Mz.43 Lte.27, Col. Ajusco, C.P. 04300, Del. Coyoacán, Ciudad de México</p>
-</footer>
-
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  /*var mapProp= {
-    center:new google.maps.LatLng(19.322869, -99.154108),zoom:16,
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);*/
-  myCenter=new google.maps.LatLng(19.322869, -99.154108);
-  var mapOptions= {
-    center:myCenter,
-    zoom:16, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
+				<div class="oc-item">
+					<div class="ipost clearfix">
+						<div class="entry-image">
+							<a href="" target="_blank"><img class="image_fade" src=""></a>
+						</div>
+						<div class="entry-title">
+								<h3>titulonoticia1</h3>
+						</div>
+						<ul class="entry-meta clearfix">
+							<li><i class="icon-calendar3"></i>fecha</li>
+							<li><a href="http://solucionesparaelfuturo.com.mx" title="Web" target="_blank"><i class="icon-link"></i>Web</a></li>
+						</ul>
+						<div class="entry-content">
+							<p>noticia1</p>
+						</div>
+					</div>
+				</div>			
+            </div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</section><!-- #content end -->
+        
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        var ocPosts = $("#oc-posts");
+		ocPosts.owlCarousel({
+			margin: 20,
+			nav: true,
+			navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+			autoplay: false,
+			autoplayHoverPause: true,
+			dots: false,
+			responsive:{
+				0:{ items:1 },
+				600:{ items:2 },
+				1000:{ items:3 },
+				1200:{ items:4 }
+			}
+		});
+    });
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK0UlwCPRHUrTJKS2lc2r4Z4MXNvgygYE&callback=myMap"></script>
 
+
+<!--
+----- Historico -----
+-->        <!-- Fin de News -->    
+        <!-- Historia  -->
+        <a id="historia"></a>
+        <div class="content-wrap">		
+    <section id="section-historia" class="page-section">   
+     		 <div class="container clearfix">
+					<div class="row topmargin bottommargin-sm">
+
+						<div class="heading-block center">
+							<h2 class="dir">Historia de ALFA</h2>
+						</div>
+
+						<div class="col-md-4 col-sm-6 bottommargin">
+            
+            	<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+								<p>Alfa Ajustadores inició operaciones en mayo de 2010 y actualmente proporciona servicios de Ajuste de  Siniestros  en  todo  el  país a  varias  compañías  aseguradoras  y  reaseguradoras,  todas  ellas  con capital de inversión extranjero,  desarrollando su actividad de manera independiente y exclusivamente con recursos propios con oficinas y presencia en Ciudad de  México, Monterrey, N.L. y Guadalajara, Jal. <br/>
+      							La  Empresa proporciona  una  amplia  gama  de  servicios  de  ajuste  de  siniestros  de  acuerdo  con estrictas  directrices éticas  y  profesionales,  adoptando  un  enfoque  multidisciplinario  que  reconoce  la importancia que tiene la imparcialidad. <br/>
+      							Tenemos  amplia  experiencia  en  la  gestión  de  reclamaciones  complejas,  especialmente  las que implican lo siguiente: <br/>
+							    <ul>
+							    	<li>Relativas a cuestiones multinacionales.</li>
+							        <li>Manejo integral de siniestros catastróficos.</li>
+							        <li>Siniestros complejos, ya sea por su potencial exposición mediática y litigiosa, el perfil del cliente y/o la cuantía del reclamo.</li>
+							        <li>Siniestros de frecuencia (Fast Track).</li>
+							    </ul>
+							    </p>
+				</div>
+
+							
+
+						</div>
+            
+					</div>
+				</div>
+    </section>
+</div>        <!-- Fin de Historia  -->
+    
+		<!-- Sección de Ubicación -->
+        <a id="ubicacion"></a>
+        <div class="content-wrap">
+    <section id="section-contact" class="page-section topmargin">
+
+					<div class="heading-block center">
+						<h2 class="dir">Ubicaci&oacute;n</h2>
+					</div>
+
+					<div class="container clearfix">
+
+						<!-- Contact Form
+						============================================= -->
+						<div class="col_half">
+						  <!--<div class="fancy-title title-dotted-border">-->
+						    <div class="col_half">
+						      <div class="fancy-title title-dotted-border">
+						        <h3>Direcci&oacute;n</h3>
+					        </div>
+					      </div>
+						  <!--</div>-->
+               <div style="clear:both;"></div>
+              		<span>
+									<a href="" class="social-icon si-colored si-small si-gplus">
+										<i class="icon-location"></i>
+										<i class="icon-location"></i>
+									</a>
+             			<b>Oficina Ciudad de M&eacute;xico:</b> Coras Mz.43 Lte.27, Col. Ajusco, C.P. 04300, Del. Coyoac&aacute;n, Ciudad de M&eacute;xico.<br/>
+             			<b>Oficina Monterrey:</b>
+                  </span>
+                  <br><br>
+                  <div style="clear:both;"></div>
+                  <span>
+									<a href="#" class="social-icon si-colored si-small si-email3">
+										<i class="icon-mail"></i>
+										<i class="icon-mail"></i>
+									</a>
+                  info@ajustadoresespecializados.com
+                  </span>
+                  <br><br>
+                  <div style="clear:both;"></div>
+                  <span>
+                  <a href="#" class="social-icon si-colored si-small si-call">
+										<i class="icon-call"></i>
+										<i class="icon-call"></i>
+									</a>
+                  555555555 Ext. 111111
+									</span>
+                  <br><br>
+						</div><!-- Contact Form End -->
+
+						<!-- Google Map
+						============================================= -->
+						<div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+						<script>function myMap()
+						{
+						  /*var mapProp= {
+						    center:new google.maps.LatLng(19.322869, -99.154108),zoom:16,
+						  };
+						  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);*/
+						  myCenter=new google.maps.LatLng(19.314714,-99.161358);
+						  var mapOptions= {
+						    center:myCenter,
+						    zoom:16, scrollwheel: false, draggable: false,
+						    mapTypeId:google.maps.MapTypeId.ROADMAP
+						  };
+						  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+						  var marker = new google.maps.Marker({
+						    position: myCenter,
+						  });
+						  marker.setMap(map);
+						}
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK0UlwCPRHUrTJKS2lc2r4Z4MXNvgygYE&callback=myMap"></script>
+
+						<!-- Google Map End -->
+
+						
+					</div>
+		</section>
+</div>
+		<!-- Fin de la sección de Ubicación -->
+
+		<!--  Sección del pie  -->
+        <footer id="footer" class="dark">
+        <!-- Footer
+============================================= -->
+<!--
+<div class="container topmargin">
+	<div class="footer-widget-wrap clearfix">
+    	<div class="col_one_third">
+        	<div class="widget clearfix">
+        		<h4>Enlaces</h4>
+                <ul style="list-style:none;">
+                	<li><a href="https://www.gob.mx/accesibilidad" target="_blank">Declaraci&oacute;n de Accesibilidad</a></li>
+                    <li><a href="https://www.gob.mx/privacidad" target="_blank">Pol&iacute;tica de privacidad</a></li>
+                    <li><a href="https://www.gob.mx/terminos" target="_blank">T&eacute;rminos y Condiciones</a></li>
+                    <li><a href="http://www.ordenjuridico.gob.mx" target="_blank">Marco Jur&iacute;dico</a></li>
+                    <li><a href="http://portaltransparencia.gob.mx" target="_blank">Portal de Obligaciones de Transparencia</a></li>
+                    <li><a href="https://www.infomex.org.mx/gobiernofederal/home.action" target="_blank">Sistema Informex</a></li>
+                    <li><a href="http://inicio.ifai.org.mx/SitePages/ifai.aspx" target="_blank">INAI</a></li>
+                    <li><a href="https://www.gob.mx/sitemap" target="_blank">Mapa de sitio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col_one_third">
+        	<div class="widget clearfix">
+        		<h4>¿Qu&eacute; es gob.mx?</h4>
+                <p>Es el portal &uacute;nico de tr&aacute;mites, informaci&oacute;n y participaci&oacute;n ciudadana. Leer m&aacute;s</p>
+                <ul style="list-style:none;">
+                	<li><a href="https://www.gob.mx/en/index" target="_blank">English</a>
+                    <li><a href="https://www.gob.mx/temas" target="_blank">Temas</a>
+                    <li><a href="http://reformas.gob.mx" target="_blank">Reformas</a>
+                </ul>
+                <a href="https://www.facebook.com/gobmx" target="_blank" class="social-icon si-rounded si-facebook">
+                    <i class="icon-facebook"></i>
+                    <i class="icon-facebook"></i>
+                </a>
+                <a href="https://twitter.com/gobmx" target="_blank" class="social-icon si-rounded si-twitter">
+                    <i class="icon-twitter"></i>
+                    <i class="icon-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col_one_third col_last">
+        	<div class="widget clearfix">
+        		<h4>Contacto</h4>
+                <p>Mesa de ayuda: dudas e informaci&oacute;n<br>gobmx@funcionpublica.gob.mx</p>
+                <ul style="list-style:none;">
+                	<li><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54" target="_blank">Denuncia contra servidores p&uacute;blicos</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="copyrights">
+	<div class="container clearfix">
+		<div class="col_half">
+			<img src="/images/gobmx.png">
+		</div>
+		<div class="col_half col_last tright">
+		</div>
+  	</div>
+</div>
+-->
+        <!-- Fin de Sección del pie  -->
+		</footer>
+		</section>
+	</div>
+	
+	<!-- Go To Top
+	============================================= -->
+		<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Footer Scripts
+	============================================= -->
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/facebook.js"></script>
+        
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  		ga('create', 'UA-12373942-1', 'auto');
+  			ga('send', 'pageview');
+		</script>
 </body>
 </html>
